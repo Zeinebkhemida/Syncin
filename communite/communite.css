@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    background-color: #0A66C2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px ;
+    font-size: 30px;
+    height: 70px;
+}
+
+.navbar i {
+  color: white;
+}
+
+.profile{
+    display: flex;
+    color: white;
+}
+.profile i{
+   margin-left: 15px;
+}
+
+.logosearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logosearch i {
+    margin-right: 20px;
+    
+}
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    transition-duration: 0.7s;
+    padding: 10px;
+}
+.search input:hover{
+    width: 300px;
+}
+
+
+
+.search i {
+    font-size: 25px;
+    padding: 5px;
+}
+.navigation{
+    text-align: left;
+    margin-right: 50px;
+}
+
+.navigation a {
+    margin-right: 50px;
+}
+
+.container{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.card img{
+    width: 400px;
+    
+}
+
+.card{
+    display: flex;
+    border: 1px black solid;
+    height: 80%;
+    margin-bottom: 20px;
+}
+
+
+.text{
+    width: 50%;
+    padding: 20px;
+}
+
+.location{
+    display: flex;
+    align-items:center;
+}
+
+.location i {
+    margin-left: 10px;
+}
+
+.locbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.locbtn #apply{
+    padding: 5px 30px ;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color:#0A66C2;
+    color: white;
+    transition-duration: 0.7s;
+}
+.locbtn #apply:hover{
+    transform: scale(1.1);
+}
+.addpost{
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.addpost input{
+    margin-left: 5px;
+    text-align: center;
+}
+.addpost button{
+    margin-top:10px;
+    padding: 5px 10px;
+    background-color: #0A66C2;
+    color: white;
+    border: 1px white solid;
+    border-radius: 20px;
+    transition-duration: 0.7s;
+}
+
+.addpost button:hover{
+   transform: scale(1.1);
+
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile h3{
+    font-size: 15px;
+}
+.newclass{
+    display: none;
+}
+
+.member{
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.member i{
+    font-size: 30px;
+}

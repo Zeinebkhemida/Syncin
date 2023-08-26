@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    background-color:#0A66C2;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.connect a{
+   text-decoration: none;
+   margin-left: 20px;
+   color: black;
+   background-color: white;
+   padding: 5px 10px;
+   border-radius: 20px;
+   transition-duration: 1s;
+}
+
+.connect a:hover{
+    background-color:#00AADD;
+    color:white;
+    padding: 10px 20px;
+ }
+.logo i{
+    color: white;
+    font-size: 40px;
+}
+
+.main{
+    min-height: 100vh;
+    background-image: url(blue-stationery-flat-lay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ; 
+    
+    filter: blur(8px);
+}
+.maintext{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.maintext h1{
+    font-size: 70px;
+    color:  #FFFAFA;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition-duration: 1.5s;
+}
+
+.maintext h1:hover{
+   transform: scale(1.1);
+}

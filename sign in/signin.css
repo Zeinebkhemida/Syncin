@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logbackground img{
+    width: 500px;
+}
+
+.container{
+    border: 1px solid black;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info input{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.info input:focus{
+    border: 2px solid #0A66C2;;
+    outline: 1px solid #0A66C2;;;
+}
+
+.info button{
+    text-decoration: none;
+    margin-left: 20px;
+    color:white ; 
+    background-color: #0A66C2;
+    padding:  10px;
+    font-size: 20;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px white solid;
+    transition-duration: 1s;
+}
+.info button:hover{
+   transform: scale(1.2);
+}
+
+.choix{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#forworker , #forceo,#lvl,#Job{
+display: none;
+}
+
+#alert{
+  font-size: 20px;
+  margin: 10px;
+}
